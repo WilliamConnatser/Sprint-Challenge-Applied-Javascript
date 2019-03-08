@@ -1,3 +1,11 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .width-100 {
   width: 100%;
 }
@@ -300,5 +308,6 @@ body {
 }
 .carousel img {
   width: 100%;
+  animation: fadeIn 1.5s;
   display: none;
 }
