@@ -1,0 +1,24 @@
+{
+  "name": "sprint-challenge-applied-javascript",
+  "version": "1.0.0",
+  "description": "This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored the DOM and the concept of components. During this Sprint, you studied the DOM, DOM Events, and Components. In your challenge this week, you will demonstrate proficiency by creating an online Lambda newspaper called \"Lambda Times.\"",
+  "main": "index.html",
+  "scripts": {
+    "compile:less": "less-watch-compiler LESS CSS index.less",
+    "live-server": "live-server --no-css-inject",
+    "start": "concurrently --names \"less-compiler,live-server\" \"npm run compile:less\" \"live-server\" -k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilliamConnatser/Sprint-Challenge-Applied-Javascript.git"
+  },
+  "author": "William Connatser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WilliamConnatser/Sprint-Challenge-Applied-Javascript/issues"
+  },
+  "homepage": "https://github.com/WilliamConnatser/Sprint-Challenge-Applied-Javascript#readme",
+  "dependencies": {
+    "less-watch-compiler": "^1.13.0"
+  }
+}
